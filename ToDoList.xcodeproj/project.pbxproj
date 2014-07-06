@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1A60B71969D3E800D72AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1A60B61969D3E800D72AB1 /* Main.storyboard */; };
 		EE30783A19694DA00085880E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE30783919694DA00085880E /* Foundation.framework */; };
 		EE30783C19694DA00085880E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE30783B19694DA00085880E /* CoreGraphics.framework */; };
 		EE30783E19694DA00085880E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE30783D19694DA00085880E /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1A60B61969D3E800D72AB1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EE30783619694DA00085880E /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30783919694DA00085880E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE30783B19694DA00085880E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 			children = (
 				EE30784819694DA00085880E /* AppDelegate.h */,
 				EE30784919694DA00085880E /* AppDelegate.m */,
+				EE1A60B61969D3E800D72AB1 /* Main.storyboard */,
 				EE30784B19694DA10085880E /* Images.xcassets */,
 				EE30784019694DA00085880E /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1A60B71969D3E800D72AB1 /* Main.storyboard in Resources */,
 				EE30784419694DA00085880E /* InfoPlist.strings in Resources */,
 				EE30784C19694DA10085880E /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				EE30786419694DA10085880E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE30786519694DA10085880E /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				EE30786719694DA10085880E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
